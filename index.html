@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Informações de lançamentos da SpaceX</title>
+</head>
+<body>
+    <h1>Informações de Lançamentos da SpaceX</h1>
+    <select id="launchType">
+        <option value="latest">Ultimo Lançamento</option>
+        <option value="upcoming">Proximos Lançamentos</option>
+    </select>
+    <button onclick="fetchLaunchData()">Carregar Lançamentos</button>
+    <div id="launchInfo"></div>
+
+    <button id="easterEggButton" onclick="revelarEasterEgg()">Easter Egg</button>
+    <img id="easterEgg" src="images/serjao.jpg" alt="Easter Egg" />
+
+    <script src="script.js"></script>
+</body>
+</html>

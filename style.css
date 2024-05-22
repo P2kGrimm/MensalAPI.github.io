@@ -1,0 +1,65 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+    background-color: #f4f4f9;
+    color: #333;
+    background-image: url('images/background.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+h1 {
+    color: #0d47a1;
+}
+
+select, button {
+    padding: 10px;
+    margin-top: 20px;
+    margin-right: 10px;
+    border: 2px solid #0d47a1;
+    border-radius: 5px;
+    background-color: white;
+    cursor: pointer;
+}
+
+button {
+    background-color: #0d47a1;
+    color: white;
+}
+
+button:hover {
+    background-color: #1565c0;
+}
+
+#launchInfo {
+    margin-top: 20px;
+    padding: 20px;
+    border-radius: 5px;
+    background-color: rgba(227, 242, 253, 0.8); /* Sutil transparência para melhorar a legibilidade sobre a imagem de fundo */
+    border: 1px solid #0d47a1;
+}
+
+#launchInfo p {
+    line-height: 1.6;
+}
+
+hr {
+    border: 0;
+    height: 1px;
+    background-image: linear-gradient(to right, #f0f0f0, #0d47a1, #f0f0f0);
+}
+
+#easterEgg {
+    display: none;
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+    width: 100px;
+    height: 100px;
+    border: 2px solid #0d47a1;
+    border-radius: 50%;
+}
+
+#easterEggButton {
+    margin-top: 20px;
+}
